@@ -7,3 +7,15 @@
 #my-navbar {
     background-color: teal;
 }
+
+#footer {
+    background-color: teal;
+}
+
+#social-media-div {
+    padding: 15px;
+}
+
+.fab {
+    padding-right: 10px;
+}
