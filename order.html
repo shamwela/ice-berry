@@ -70,38 +70,51 @@
 
 
 
+    <br>
+
+
+
     <!-- ORDER FORM -->
     <div class="d-flex justify-content-center">
         <form class="border border-light p-5 w-50">
 
             <p class="h4 mb-4 text-center">Order</p>
+            <div class="input-group">
+                <input class="form-control mb-4" id="textInput" type="text" placeholder="Product 1">
+                <select class="browser-default custom-select mb-4" id="select">
+                    <option value="" disabled="" selected="">Quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
 
-            <input class="form-control mb-4" id="textInput" type="text" placeholder="Product 1">
+            <div class="input-group">
+                <input class="form-control mb-4" id="textInput" type="text" placeholder="Product 2 (Optional)">
+                <select class="browser-default custom-select mb-4" id="select">
+                    <option value="" disabled="" selected="">Quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
 
-            <select class="browser-default custom-select mb-4" id="select">
-                <option value="" disabled="" selected="">Product 1 Quantity</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
+            <div class="input-group">
+                <input class="form-control mb-4" id="textInput" type="text" placeholder="Product 3 (Optional)">
 
-            <input class="form-control mb-4" id="textInput" type="text" placeholder="Product 2">
-
-            <select class="browser-default custom-select mb-4" id="select">
-                <option value="" disabled="" selected="">Product 2 Quantity</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-
-            <input class="form-control mb-4" id="textInput" type="text" placeholder="Product 3">
-
-            <select class="browser-default custom-select mb-4" id="select">
-                <option value="" disabled="" selected="">Product 3 Quantity</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
+                <select class="browser-default custom-select mb-4" id="select">
+                    <option value="" disabled="" selected="">Quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
 
             <input class="form-control mb-4" id="textInput" type="text" placeholder="Name" data-kwimpalastatus="alive"
                 data-kwimpalaid="1594906155325-167">
@@ -110,13 +123,25 @@
                 style="animation: initial; transition: initial; color: initial; color-scheme: initial; font: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-variation-settings: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; appearance: initial; backdrop-filter: initial; backface-visibility: initial; background: url(&quot;data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjUgNS4yODgxMUMxMy41IDUuMTkzNzYgMTMuNDA1NiA1LjA5OTQxIDEzLjI3MzUgNS4wNjE2NkwxMS42ODg1IDQuNDc2NjZDMTEuNDI0MyA0LjM2MzQxIDExLjEyMjQgNC40OTU1MSAxMS4xMjI0IDQuNjg0MjZWMTEuNTgxN0MxMS4xMjk4IDExLjYzNTUgMTEuMTUxMSAxMS42ODY0IDExLjE4NDIgMTEuNzI5NEMxMS4yMTczIDExLjc3MjQgMTEuMjYxMSAxMS44MDYxIDExLjMxMTEgMTEuODI3MUwxMi45MzQgMTIuNDEyMUMxMy4xNzkzIDEyLjUwNjQgMTMuNTAwMSAxMi4zNzQzIDEzLjUwMDEgMTIuMTY2N0wxMy41IDUuMjg4MTFaTTkuNDc5MzYgMTAuNTQzN0M5LjQ3OTM2IDEwLjQ0OTQgOS4zODUwMSAxMC4zNTUgOS4yNTI5MSAxMC4zMTczTDcuNjY3OTEgOS43MzIyNkM3LjQwMzc2IDkuNjE5MDEgNy4xMDE4MSA5Ljc1MTExIDcuMTAxODEgOS45Mzk4MVYxNC4yNDI0QzcuMTA5MjUgMTQuMjk2MSA3LjEzMDU2IDE0LjM0NyA3LjE2MzY1IDE0LjM5QzcuMTk2NzMgMTQuNDMzMSA3LjI0MDQ2IDE0LjQ2NjcgNy4yOTA1MSAxNC40ODc3TDguOTEzNDEgMTUuMDcyN0M5LjE1ODcxIDE1LjE2NzEgOS40Nzk1MSAxNS4wMzUgOS40Nzk1MSAxNC44Mjc0TDkuNDc5MzYgMTAuNTQzN1pNOS40NzkzNiAxLjc0OTc2QzkuNDc5MzYgMS42NTU0MSA5LjM4NTAxIDEuNTYxMDYgOS4yNTI5MSAxLjUyMzMxTDcuNjY3OTEgMC45MzgzMTFDNy40MDM3NiAwLjgyNTA2MSA3LjEwMTgxIDAuOTU3MTYxIDcuMTAxODEgMS4xNDU4NlY1LjQ0ODQxQzcuMTA5MjUgNS41MDIxNyA3LjEzMDU2IDUuNTUzMDcgNy4xNjM2NSA1LjU5NjA5QzcuMTk2NzMgNS42MzkxMiA3LjI0MDQ2IDUuNjcyNzggNy4yOTA1MSA1LjY5Mzc2TDguOTEzNDEgNi4yNzg3NkM5LjE1ODcxIDYuMzczMTEgOS40Nzk1MSA2LjI0MTAxIDkuNDc5NTEgNi4wMzM0MUw5LjQ3OTM2IDEuNzQ5NzZaTTUuNDc5MTEgMS40MTk3NkM1LjQ3OTExIDEuMzI1MzYgNS4zODQ3NiAxLjIzMTAxIDUuMjUyNjYgMS4xOTMzMUwzLjY2NzY2IDAuNjA4MzExQzMuNDAzNTEgMC40OTUwNjEgMy4xMDE1NiAwLjYyNzE2MSAzLjEwMTU2IDAuODE1ODYxVjE0LjU5MTRDMy4xMDg5OSAxNC42NDUyIDMuMTMwMyAxNC42OTYxIDMuMTYzMzkgMTQuNzM5MUMzLjE5NjQ4IDE0Ljc4MjEgMy4yNDAyMSAxNC44MTU3IDMuMjkwMjYgMTQuODM2N0w0LjkxMzE2IDE1LjQyMTdDNS4xNTg0NiAxNS41MTYxIDUuNDc5MjYgMTUuMzg0IDUuNDc5MjYgMTUuMTc2NEw1LjQ3OTExIDEuNDE5NzZaIiBmaWxsPSIjOTk5NTkyIi8+Cjwvc3ZnPgo=&quot;) center center / contain no-repeat; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block-end: initial; border-block-start: initial; border: none; border-radius: initial; border-collapse: initial; border-inline-end: initial; border-inline-start: initial; bottom: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-size: initial; content: initial; counter-increment: initial; counter-reset: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: inline; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: 16px; hyphens: initial; image-orientation: initial; image-rendering: initial; inline-size: initial; isolation: initial; left: 315px; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block-end: initial; margin-block-start: initial; margin: initial; margin-inline-end: initial; margin-inline-start: initial; marker: initial; mask: initial; mask-type: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: 16px; mix-blend-mode: initial; object-fit: initial; object-position: initial; offset: initial; opacity: 1; order: initial; origin-trial-test-property: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block-end: initial; padding-block-start: initial; padding: initial; padding-inline-end: initial; padding-inline-start: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: absolute; quotes: initial; r: initial; resize: initial; right: initial; ruby-position: initial; rx: initial; ry: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-position: initial; top: 16px; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: visible; -webkit-app-region: initial; border-spacing: initial; -webkit-border-image: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-font-size-delta: initial; -webkit-highlight: initial; -webkit-hyphenate-character: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-perspective-origin-x: initial; -webkit-perspective-origin-y: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-emphasis: initial; -webkit-text-emphasis-position: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-transform-origin-x: initial; -webkit-transform-origin-y: initial; -webkit-transform-origin-z: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: 16px; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: auto;"></span>
             <input class="form-control mb-4" id="textInput" type="text" placeholder="Phone" data-kwimpalastatus="alive"
                 data-kwimpalaid="1594906155325-168">
+
+            <!-- DATE & TIME INPUT -->
+            <div class="form-group row">
+                <div class="col-12">
+                    <input class="form-control" type="datetime-local" value="2020-08-01T13:00:00"
+                        id="example-datetime-local-input">
+                </div>
+            </div>
+            <!-- DATE & TIME INPUT -->
+
             <span
                 style="animation: initial; transition: initial; color: initial; color-scheme: initial; font: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-variation-settings: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; appearance: initial; backdrop-filter: initial; backface-visibility: initial; background: url(&quot;data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjUgNS4yODgxMUMxMy41IDUuMTkzNzYgMTMuNDA1NyA1LjA5OTQxIDEzLjI3MzYgNS4wNjE2NkwxMS42ODg2IDQuNDc2NjZDMTEuNDI0NCA0LjM2MzQxIDExLjEyMjUgNC40OTU1MSAxMS4xMjI1IDQuNjg0MjZWMTEuNTgxN0MxMS4xMjk5IDExLjYzNTUgMTEuMTUxMiAxMS42ODY0IDExLjE4NDMgMTEuNzI5NEMxMS4yMTc0IDExLjc3MjQgMTEuMjYxMSAxMS44MDYxIDExLjMxMTIgMTEuODI3MUwxMi45MzQxIDEyLjQxMjFDMTMuMTc5NCAxMi41MDY0IDEzLjUwMDIgMTIuMzc0MyAxMy41MDAyIDEyLjE2NjdMMTMuNSA1LjI4ODExWk05LjQ3OTQyIDEwLjU0MzdDOS40Nzk0MiAxMC40NDk0IDkuMzg1MDcgMTAuMzU1IDkuMjUyOTcgMTAuMzE3M0w3LjY2Nzk3IDkuNzMyMjZDNy40MDM4MiA5LjYxOTAxIDcuMTAxODcgOS43NTExMSA3LjEwMTg3IDkuOTM5ODFWMTQuMjQyNEM3LjEwOTMxIDE0LjI5NjEgNy4xMzA2MiAxNC4zNDcgNy4xNjM3MSAxNC4zOUM3LjE5NjggMTQuNDMzMSA3LjI0MDUyIDE0LjQ2NjcgNy4yOTA1NyAxNC40ODc3TDguOTEzNDcgMTUuMDcyN0M5LjE1ODc3IDE1LjE2NzEgOS40Nzk1NyAxNS4wMzUgOS40Nzk1NyAxNC44Mjc0TDkuNDc5NDIgMTAuNTQzN1pNOS40Nzk0MiAxLjc0OTc2QzkuNDc5NDIgMS42NTU0MSA5LjM4NTA3IDEuNTYxMDYgOS4yNTI5NyAxLjUyMzMxTDcuNjY3OTcgMC45MzgzMTFDNy40MDM4MiAwLjgyNTA2MSA3LjEwMTg3IDAuOTU3MTYxIDcuMTAxODcgMS4xNDU4NlY1LjQ0ODQxQzcuMTA5MzEgNS41MDIxNyA3LjEzMDYyIDUuNTUzMDcgNy4xNjM3MSA1LjU5NjA5QzcuMTk2OCA1LjYzOTEyIDcuMjQwNTIgNS42NzI3OCA3LjI5MDU3IDUuNjkzNzZMOC45MTM0NyA2LjI3ODc2QzkuMTU4NzcgNi4zNzMxMSA5LjQ3OTU3IDYuMjQxMDEgOS40Nzk1NyA2LjAzMzQxTDkuNDc5NDIgMS43NDk3NlpNNS40NzkxNyAxLjQxOTc2QzUuNDc5MTcgMS4zMjUzNiA1LjM4NDgyIDEuMjMxMDEgNS4yNTI3MiAxLjE5MzMxTDMuNjY3NzIgMC42MDgzMTFDMy40MDM1NyAwLjQ5NTA2MSAzLjEwMTYyIDAuNjI3MTYxIDMuMTAxNjIgMC44MTU4NjFWMTQuNTkxNEMzLjEwOTA1IDE0LjY0NTIgMy4xMzAzNiAxNC42OTYxIDMuMTYzNDUgMTQuNzM5MUMzLjE5NjU0IDE0Ljc4MjEgMy4yNDAyNyAxNC44MTU3IDMuMjkwMzIgMTQuODM2N0w0LjkxMzIyIDE1LjQyMTdDNS4xNTg1MiAxNS41MTYxIDUuNDc5MzIgMTUuMzg0IDUuNDc5MzIgMTUuMTc2NEw1LjQ3OTE3IDEuNDE5NzZaIiBmaWxsPSIjMEU2NDc2Ii8+Cjwvc3ZnPgo=&quot;) center center / contain no-repeat; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block-end: initial; border-block-start: initial; border: none; border-radius: initial; border-collapse: initial; border-inline-end: initial; border-inline-start: initial; bottom: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-size: initial; content: initial; counter-increment: initial; counter-reset: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: inline; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: 16px; hyphens: initial; image-orientation: initial; image-rendering: initial; inline-size: initial; isolation: initial; left: 315px; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block-end: initial; margin-block-start: initial; margin: initial; margin-inline-end: initial; margin-inline-start: initial; marker: initial; mask: initial; mask-type: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: 16px; mix-blend-mode: initial; object-fit: initial; object-position: initial; offset: initial; opacity: 1; order: initial; origin-trial-test-property: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block-end: initial; padding-block-start: initial; padding: initial; padding-inline-end: initial; padding-inline-start: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: absolute; quotes: initial; r: initial; resize: initial; right: initial; ruby-position: initial; rx: initial; ry: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-position: initial; top: 16px; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: visible; -webkit-app-region: initial; border-spacing: initial; -webkit-border-image: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-font-size-delta: initial; -webkit-highlight: initial; -webkit-hyphenate-character: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-perspective-origin-x: initial; -webkit-perspective-origin-y: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-emphasis: initial; -webkit-text-emphasis-position: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-transform-origin-x: initial; -webkit-transform-origin-y: initial; -webkit-transform-origin-z: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: 16px; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: auto;"></span>
             <textarea class="form-control mb-4" id="textarea" placeholder="Address"></textarea>
 
-            <button class="btn btn-block my-4" type="submit" style="color:white; background: #6f4e37;">
-                Order
-            </button>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-block my-4" type="submit" style="color:white; background: #6f4e37; width: 20%;">
+                    Order
+                </button>
+            </div>
         </form>
     </div>
     <!-- ORDER FORM -->
@@ -124,6 +149,10 @@
 
 
     <!-- CONTENTS -->
+
+
+
+    <br>
 
 
 
@@ -234,9 +263,6 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Your custom scripts (optional) -->
-    <script type="text/javascript"></script>
-
 </body>
 
 </html>
