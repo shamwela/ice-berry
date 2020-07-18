@@ -5,11 +5,18 @@
 }
 
 #my-navbar {
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #6f4e37;
 }
 
 .navbar-nav {
     margin-left: 70px;
+}
+
+#navbarSupportedContent {
+    flex-grow: 0;
+    margin-left: auto
 }
 
 .rating-list {
@@ -18,6 +25,12 @@
 
 .products {
     padding: 0;
+}
+
+/* TO ADD SPACES BETWEEN */
+.employees:nth-child(1),
+.employees:nth-child(2) {
+    margin-right: 100px;
 }
 
 #footer {
