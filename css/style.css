@@ -8,6 +8,10 @@
     background-color: #6f4e37;
 }
 
+.rating-list {
+    list-style-type: none;
+}
+
 #footer {
     background-color: #6f4e37;
 }
