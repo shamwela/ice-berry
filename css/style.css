@@ -27,17 +27,6 @@
     padding: 0;
 }
 
-/* TO ADD SPACES BETWEEN CARDS */
-.employees:nth-child(1),
-.employees:nth-child(2) {
-    margin-right: 100px;
-}
-
-/* EMPLOYEES' SOCIAL MEDIA ICONS */
-.employees-social a {
-    color: #6f4e37;
-}
-
 #footer {
     padding-top: 20px;
     background-color: #6f4e37;
