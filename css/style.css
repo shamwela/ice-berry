@@ -9,11 +9,15 @@
 }
 
 .navbar-nav {
-    margin-left: 89px;
+    margin-left: 70px;
 }
 
 .rating-list {
     list-style-type: none;
+}
+
+.products {
+    padding: 0;
 }
 
 #footer {
