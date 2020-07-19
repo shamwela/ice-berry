@@ -1,17 +1,11 @@
 * {
-    padding: 0;
-    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-#my-navbar {
+.navbar {
     padding-left: 10%;
     padding-right: 10%;
     background-color: #6f4e37;
-}
-
-.navbar-nav {
-    margin-left: 70px;
 }
 
 #navbarSupportedContent {
@@ -19,12 +13,16 @@
     margin-left: auto
 }
 
-.rating-list {
-    list-style-type: none;
+.navbar-nav {
+    margin-left: 70px;
 }
 
 .products {
     padding: 0;
+}
+
+.rating-list {
+    list-style-type: none;
 }
 
 #footer {
