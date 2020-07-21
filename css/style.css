@@ -8,6 +8,10 @@
     background-color: #6f4e37;
 }
 
+.navbar-brand strong {
+    font-family: 'Permanent Marker', cursive;
+}
+
 #navbarSupportedContent {
     flex-grow: 0;
     margin-left: auto
